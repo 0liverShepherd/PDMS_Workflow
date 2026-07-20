@@ -1,0 +1,44 @@
+name: Polymer
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - openmm
+  - seaborn
+  - dgl=2.0.0
+  - networkx
+  - python[version='>=3.11.5']
+  - statsmodels
+  - scipy
+  - openff-toolkit[version='>=0.18.0']
+  - pytorch[version='>=2.0.0']
+  - mdtraj
+  - plotly
+  - matplotlib-base
+  - matplotlib-inline
+  - openeye-toolkits
+  - pandas
+  - openff-interchange
+  - openff-models
+  - python-dateutil
+  - qcengine
+  - smirnoff99frosst
+  - pydantic
+  - qcportal
+  - parmed
+  - openff-forcefields
+  - ambertools
+  - openbabel
+  - jedi
+  - nglview
+  - jupyter
+  - qcelemental
+  - openff-utilities
+  - openff-nagl[version='>=0.5.5']
+  - openff-units[version='>=0.3.2']
+  - packmol
+  - pip
+  - openff-toolkit-examples
+  - lammps
+  - ovito
+  - gromacs
